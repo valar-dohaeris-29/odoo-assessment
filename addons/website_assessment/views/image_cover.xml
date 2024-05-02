@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="header_cover" model="ir.ui.view">
+        <field name="inherit_id" ref="portal.frontend_layout"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='wrapwrap']" position="attributes">
+                <attribute name="style">
+                    background-image: url('website_assessment/static/src/img/autumn-pathway.jpg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                </attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
